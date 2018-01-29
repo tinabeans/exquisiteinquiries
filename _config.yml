@@ -1,20 +1,20 @@
 # SITE CONFIGURATION
-baseurl: "/"
+baseurl: ""
 url: "http://exquisiteinquiri.es"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
   title: ExquisiteInquiri.es
-  avatar: assets/img/triangle.svg
-  favicon: assets/favicon.ico
+  avatar: 
+  favicon: 
   gravatar: # Email MD5 hash
   description: "A project exploring how design research is practiced today" # used by search engines
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
      <p>A project exploring how design research is practiced today</p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+  header_text_feature_image: assets/img/hero-bg.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
