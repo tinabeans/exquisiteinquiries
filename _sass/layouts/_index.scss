@@ -6,8 +6,6 @@
     height: 100%;
     background-color: $header-desc-background-color;
     font-size: 1.2em;
-    text-align: center;
-    color: $header-desc-text-color;
     background-repeat: no-repeat;
     background-size: $feature-image-size;
 
@@ -16,7 +14,7 @@
         background-size: 100% auto;
     } 
     
-    //For white images
+    
     p,
     a,
     li,
@@ -25,7 +23,12 @@
     h3,
     h4,
     h5 {
-        @extend .header-txt-shadow;
+        // @extend .header-txt-shadow; //For white images
+        color: $header-desc-text-color;
+    }
+
+    a {
+        border-bottom: 1px dotted $header-desc-text-color;
     }
 
     p:last-child {
